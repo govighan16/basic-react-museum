@@ -1,6 +1,7 @@
 import {useParams, Route} from 'react-router-dom';
 import ArtImageTile from '../ArtImageTile';
 import ArtDescription from '../ArtDescription';
+import './GalleryView.css'
 
 
 function GalleryView({galleries}) {
@@ -14,6 +15,7 @@ function GalleryView({galleries}) {
     // })}
 
     const imagesData = galleryData.objects.map(obj => {return obj.images})
+
     //console.log(galleryData.objects[0].images[0].baseimageurl)
     //console.log(images)
     //console.log(images)

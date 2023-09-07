@@ -2,6 +2,7 @@ import {NavLink} from 'react-router-dom';
 import './GalleryNavigation.css'
 
 function GalleryNavigation({galleries}) {
+    galleries.splice(4,1)
     return (
     <nav>
         <h1> Galleries </h1>

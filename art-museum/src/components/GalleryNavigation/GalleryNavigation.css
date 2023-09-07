@@ -1,3 +1,30 @@
 .active {
     font-weight: bold;
-}
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0 20px;
+    font-size: 1.5rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff5733;
+  }
+  

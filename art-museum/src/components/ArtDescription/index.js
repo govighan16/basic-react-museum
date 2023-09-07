@@ -15,7 +15,8 @@ function ArtDescription({gallery}) {
             </h2>
             <h2> Technique: {technique} </h2>
             <h2> Gallery Id: {galleryId}</h2>
-            <Link to = {`/galleries/${galleryId}`}>Back to Gallery</Link>
+            <h2> Gallery Name: {gallery.name} </h2>
+            <NavLink to = {`/galleries/${galleryId}`}>Back to Gallery</NavLink>
         </div>
     )
 
